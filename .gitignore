@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+dist/
+*.o
+*.so
+*.a
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Docker
+*.tar
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+venv/
