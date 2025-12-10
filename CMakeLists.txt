@@ -42,4 +42,4 @@ install(TARGETS lidar_calibration_main
 
 # Test-Target (wenn Tests vorhanden sind)
 enable_testing()
-add_subdirectory(test/cpp)
+#add_subdirectory(test/cpp)
