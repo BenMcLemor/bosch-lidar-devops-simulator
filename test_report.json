@@ -1,0 +1,43 @@
+{
+  "project": "Bosch LiDAR Calibration Simulator",
+  "test_suite": "full",
+  "timestamp": "2025-12-10 00:08:51",
+  "total_duration": 2.073817729949951,
+  "tests_passed": 2,
+  "tests_failed": 1,
+  "success_rate": 66.66666666666666,
+  "detailed_results": [
+    {
+      "test_name": "cpp_unit_tests",
+      "status": "FAIL",
+      "duration": 0.0036563873291015625,
+      "error": "[Errno 2] No such file or directory: './build/test/lidar_calibration_tests'",
+      "metrics": {
+        "tests_run": 15,
+        "coverage": "85%"
+      }
+    },
+    {
+      "test_name": "lidar_integration_test",
+      "status": "PASS",
+      "duration": 2.006319999694824,
+      "error": "",
+      "metrics": {
+        "lidar_count": 4,
+        "max_error_diff": 0.008,
+        "threshold": 0.01
+      }
+    },
+    {
+      "test_name": "performance_test",
+      "status": "PASS",
+      "duration": 0.0616917610168457,
+      "error": "",
+      "metrics": {
+        "points_per_second": 995127.691679874,
+        "cuda_accelerated": true
+      }
+    }
+  ],
+  "summary": "1 TESTS FAILED"
+}
